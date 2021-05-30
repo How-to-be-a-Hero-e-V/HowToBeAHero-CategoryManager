@@ -4,9 +4,9 @@ $magicWords = [];
  
 $magicWords['en'] = [
     // Case insensitive.
-    'mag_custom' => [ 0, 'custom' ],
+    'mag_catformat' => [ 0, 'catformat' ],
 ];
  
 $magicWords['de'] = [
-    'mag_custom' => [ 0, 'custom' ],
+    'mag_catformat' => [ 0, 'catformat' ],
 ];

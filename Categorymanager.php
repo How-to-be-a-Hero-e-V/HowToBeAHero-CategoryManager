@@ -2,13 +2,13 @@
  
 class Categorymanager {
     public static function onParserFirstCallInit( $parser ) {
-        $parser->setFunctionHook( 'mag_custom', [ self::class, 'expandCustom' ] );
+        $parser->setFunctionHook( 'mag_catformat', [ self::class, 'categoryFormat' ] );
 		MWDebug::init();
 		MWDebug::log('Blaaaa');
         return true;
     }
  
-    public static function expandCustom( $parser) {
+    public static function categoryFormat( $parser) {
 		MWDebug::init();
 		MWDebug::log('Bliii');
 		return ["
