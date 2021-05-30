@@ -16,7 +16,6 @@ class Categorymanager {
 		div#mw-subcategories h2, div#mw-subcategories p, div#mw-pages h2, div#mw-pages p{
 			display: none;
 		}
-		
 		.mw-category {
 			-webkit-column-count: 1 !important;
 			-moz-column-count: 1 !important;
