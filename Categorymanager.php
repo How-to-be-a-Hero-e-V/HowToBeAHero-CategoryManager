@@ -18,12 +18,12 @@ class Categorymanager {
 		}
 		
 		.mw-category {
-			-webkit-column-count: 1;
-			-moz-column-count: 1;
-			column-count: 1;
-			-webkit-column-width: initial;
-			-moz-column-width: initial;
-			column-width: initial;
+			-webkit-column-count: 1 !important;
+			-moz-column-count: 1 !important;
+			column-count: 1 !important;
+			-webkit-column-width: initial !important;
+			-moz-column-width: initial !important;
+			column-width: initial !important;
 		}
 		</style>
 	", 'isHTML' => true];
