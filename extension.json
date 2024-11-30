@@ -1,5 +1,6 @@
 {
 	"name": "Category Manager",
+	"manifest_version": 2,
 	"version": "0.1.0",
 	"author": [
 		"Murmel Gippert"
@@ -8,17 +9,14 @@
 	"descriptionmsg": "categorymanager-desc",
 	"license-name": "GPL-3.0-or-later",
 	"type": "other",
-	
-
-    "ExtensionMessagesFiles": {
-        "CategoryManager": "Categorymanager.i18n.magic.php"
-    },
+	"ExtensionMessagesFiles": {
+		"CategoryManager": "Categorymanager.i18n.magic.php"
+	},
 	"AutoloadClasses": {
 		"Categorymanager": "Categorymanager.php",
 		"Debug": "includes/debug/MWDebug.php"
 	},
-	
-    "Hooks": {
-        "ParserFirstCallInit": "Categorymanager::onParserFirstCallInit"
-    }
+	"Hooks": {
+		"ParserFirstCallInit": "Categorymanager::onParserFirstCallInit"
+	}
 }
